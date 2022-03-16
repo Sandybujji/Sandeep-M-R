@@ -1,0 +1,51 @@
+(1) Spend-some-time-working-with-file 
+
+* Command for File Information :-  1) file - determine file type
+                                                                 2) stat - display file status
+  
+* Notable File System Directories:- 1) common configuration files:/etc
+                                                                  2) common programs or commaands:/bin,/sbin
+                                                                  3) shared libraries and modules:/lib
+                                                                  4) standard location for mounting other file systems:/mnt,/media
+                                                                  5) kernel and system information:/dev./proc,and /sys
+ 
+* Absolute paths:-                  1) begins from the root of the file syatem
+                                                                  /home/scott/
+                                                                  /home/scott/Documents
+                                                                  -A slash at the begining indicates an absolute path.
+
+                                                          
+(2) create files with the touch command, or make copies of exiting files ?
+
+
+ 
+* create files with the touch command :-    Touch command Syntax to create a new file: You can create a single file at a time using touch command.
+
+                                                                         Syntax:
+
+                                                                            touch file_name
+                                                                  Example:- touch file1
+
+*Touch command to create multiple files:-   Touch command can be used to create the multiple numbers of files at the same time.files would be empty while creation.
+
+                                                                         -The file which is created can be viewed by ls 
+        
+                                                                          Syntax:
+
+                                                                            touch File1_name File2_name File3_name 
+                                                                  Example:- touch doc1 doc2 doc3
+
+  #make-copies-of-exiting-files:-  cp poems.txt poems2.txt 
+
+
+  
+(3) practice with link and directories ?:-     1)How to create a symbolic link to a directory in Ubuntu?
+                                               - ln -s /home/immukul/Downloads /home/immukul/Desktop
+
+                                             * create a directories
+                                               1)mkdir newfolder
+
+                                             * remove a directories
+                                               2) rmdir departments/legal/contracts/
+
+  
